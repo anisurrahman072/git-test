@@ -1,0 +1,28 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is a test directory to learn Git and Node",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "resolve-install": "npx npm-force-resolutions && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anisurrahman072/git-test.git"
+  },
+  "author": "Md Anisur Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anisurrahman072/git-test/issues"
+  },
+  "homepage": "https://github.com/anisurrahman072/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "resolutions": {
+    "https-proxy-agent": "^3.0.0"
+  }
+}
